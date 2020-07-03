@@ -1,0 +1,33 @@
+{
+  "name": "markdown-it-cjk-delimiters",
+  "version": "0.0.0",
+  "description": "Make inline delimiters in CJK characters able to be open or close delimiters.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SyaOS/markdown-it-cjk-delimiters.git"
+  },
+  "keywords": [
+    "markdown-it",
+    "markdown-it-plugin"
+  ],
+  "author": "王见充 <gerhut@sya.org.cn>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SyaOS/markdown-it-cjk-delimiters/issues"
+  },
+  "homepage": "https://github.com/SyaOS/markdown-it-cjk-delimiters#readme",
+  "peerDependencies": {
+    "markdown-it": "^11.0.0"
+  },
+  "devDependencies": {
+    "markdown-it": "^11.0.0",
+    "mocha": "^8.0.1",
+    "nyc": "^15.1.0",
+    "should": "^13.2.3",
+    "standard": "^14.3.4"
+  }
+}
