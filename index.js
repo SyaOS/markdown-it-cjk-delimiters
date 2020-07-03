@@ -1,10 +1,14 @@
+const cjk = require('cjk-regex')
+
+const cjkRegExp = cjk().toRegExp()
+
 /**
  * @private
  * @param {string} character
  * @returns {boolean}
  */
 function isCJK (character) {
-  return true
+  return cjkRegExp.test(character)
 }
 
 /**
